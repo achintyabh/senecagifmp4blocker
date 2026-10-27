@@ -9,12 +9,12 @@ Standard browser extensions often fail to filter these properly due to Manifest 
 This application automatically handles file paths, requests administrative/root privileges using your OS's native password prompt windows, and provides an interactive menu to block or unblock the domains safely.
 
 ## Targeted Domains
-The application modifies host routing for the following explicit distribution subdomains to local loopback endpoints (127.0.0.1 and ::1), cutting off both standard animated files and hidden background MP4 streaming payloads:
-* ://giphy.com
-* ://giphy.com to ://giphy.com
-* ://giphy.com
-* ://giphy.com
-* ://senecalearning.com (Only isolates the animation folder; ://senecalearning.com remains fully open)
+The application maps the following explicit distribution subdomains to local loopback endpoints (`127.0.0.1` and `::1`), cutting off both standard animated files and hidden background MP4 streaming payloads:
+* media.giphy.com
+* media0.giphy.com to media8.giphy.com
+* i.giphy.com
+* clip.giphy.com
+* gif.app.senecalearning.com (Only isolates the animation folder; app.senecalearning.com remains fully open)
 
 ## Installation & Usage
 
