@@ -16,20 +16,13 @@ The application maps the following explicit distribution subdomains to local loo
 
 ## Installation & Usage
 
-### Method A: Standalone Executable (Recommended for Non-Technical Users)
-1. Go to the **Releases** tab of this GitHub repository.
-2. Download the binary matching your operating system (`.exe` for Windows, executable for macOS/Linux).
-3. Double-click to run the application.
-4. Authenticate when your operating system prompts you for Administrator/Root permissions.
-5. Completely restart your web browser.
-
-### Method B: Running via Python 3
-If you prefer running the raw script natively, clone this repository and run:
+### Running via Python 3
+Clone this repository and run:
 
 * **Windows (Admin PowerShell):** `python senecagifmp4blocker.py` (or `py senecagifmp4blocker.py`)
 * **macOS (Terminal):** `sudo python3 senecagifmp4blocker.py`
 * **Linux (Terminal):** `sudo python3 senecagifmp4blocker.py`
 
 ## Troubleshooting
-* **PermissionError / Write Block:** Windows Defender or third-party antivirus suites actively guard the system hosts file to prevent malicious hijacking. If the script encounters a write block, temporarily disable **Real-Time Protection** in your security settings, run the utility, and re-enable it immediately after.
+* **Permission Error / Write Block:** Windows Defender or third-party antivirus suites actively guard the system hosts file to prevent malicious hijacking. If the script encounters a write block, temporarily disable **Real-Time Protection** in your security settings, run the utility, and re-enable it immediately after.
 * **GIFs/Videos are still showing up:** Web browsers aggressively store image and routing profiles inside their own persistent runtime cache. Completely close all browser windows, open a fresh window profile, or press `Ctrl + F5` while on the Seneca Learning portal to force a deep layout update.
