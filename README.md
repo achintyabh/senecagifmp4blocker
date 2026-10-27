@@ -1,5 +1,7 @@
 # Seneca Learning GIF & MP4 Blocker
 
+**You will still be able to watch the topic videos that pop up in each assignment, as they are YouTube videos, not raw .mp4 or raw .gifs. Please note that this will block GIPHY GIFs not only on Seneca Learning, but across your whole system! So you can't use GIPHY GIFs anymore. If you are OK with this trade-off, then you may proceed with running the Python script.**
+
 A safe, lightweight, cross-platform utility designed to help students eliminate distracting animations, GIFs, and memes on Seneca Learning without breaking access to core assignments, text, or quizzes.
 
 Standard browser extensions often fail to filter these properly due to Manifest V3 limitations, and running background local DNS proxies can clash with system network ports. The safest, most efficient method is updating your operating system's local `hosts` configuration file for both IPv4 and IPv6 protocols so the targeted media delivery servers hit an instant dead end.
